@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="../Statics/juego.css">
+</head>
+<body>
+    <div id="izquierda">
+        <button id="contador">Contador</button>
+        <button id="buscador">Buscador</button>
+        <button id="acronimo">Acronimo</button>
+    </div>
+
+    <div class="derecha">
+        <h1 id="Titulo">Juego de Palabras</h1>
+        <form id="formulario">
+            <label for="nombre">Contador</label>
+            <input type="text" id="nombre">
+            <input type="text" id="buscador" placeholder="Solo usar con buscador">
+            <button id="subir">Ejecutar</button>
+        </form>
+        <h2>resultados</h2>
+        <div id="resultados">
+            Resultados con espacio: 
+        </div>
+        <div id="sinEspacio">
+            Resultados sin espacio:
+        </div>
+        <div id="contarPalabras">
+            Número de palabras: 
+        </div>
+        <div id="palabrasLargas">
+            Palabras más largas: 
+        </div>
+        <input type="text" id="acronimo" placeholder="Solo usar con acronimos">
+    </div>
+    <script src="../Dynamics/Js/ActContador.js"></script>
+</body>
+
+</html>
